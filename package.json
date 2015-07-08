@@ -1,6 +1,6 @@
 {
   "name": "serenize-hubot",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Fetch interesting questions from serenize.me",
   "main": "index.js",
   "scripts": {
