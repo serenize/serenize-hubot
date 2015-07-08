@@ -1,0 +1,28 @@
+{
+  "name": "serenize-hubot",
+  "version": "1.0.0",
+  "description": "Fetch interesting questions from serenize.me",
+  "main": "index.js",
+  "scripts": {
+    "test": "grunt test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/%3Aserenize/serenize-hubot.git"
+  },
+  "keywords": [
+    "hubot",
+    "script",
+    "serenize"
+  ],
+  "author": "Sserenize",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/%3Aserenize/serenize-hubot/issues"
+  },
+  "homepage": "https://github.com/%3Aserenize/serenize-hubot#readme",
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-contrib-jshint": "^0.11.2"
+  }
+}
