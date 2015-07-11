@@ -4,6 +4,7 @@
 // Commands:
 //   hubot <serenize me> - <fetches a question>
 //   hubot <serenize.me> - <fetches a question>
+//   hubot <i have a problem> - <fetches a question>
 //
 // Author:
 //   Serenize
@@ -16,6 +17,10 @@ module.exports = function(robot) {
   });
 
   robot.respond(/serenize\.me/i, function(res) {
+    getQuestion(res);
+  });
+  
+  robot.respond(/i have a problem/i, function(res) {
     getQuestion(res);
   });
 
